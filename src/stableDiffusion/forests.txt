@@ -1,0 +1,42 @@
+# Base descriptions of forest scenes
+landscape_types = [
+    "dense forest",
+    "woodland",
+    "coniferous forest",
+    "pine forest",
+    "deciduous forest",
+    "old growth forest",
+    "forest canopy",
+    "forest path perspective",
+    "forest trail view",
+    "forest clearing view",
+    "forest interior view",
+    "woodland vista",
+    "forest corridor view",
+    "forest depth view"
+]
+
+# Weather and lighting conditions
+conditions = [
+    "in natural daylight",
+    "on an overcast day",
+    "in diffuse light",
+    "in soft morning light",
+    "under cloud cover",
+    "in filtered sunlight",
+    "in natural ambient light"
+]
+
+# Natural elements for more subtle variety
+natural_elements = [
+    "with fallen leaves",
+    "with forest floor",
+    "with natural undergrowth",
+    "with moss covered ground",
+    "with natural debris",
+    "with forest understory",
+    "with natural ground cover"
+]
+
+# Negative prompt to avoid unwanted elements
+negative_prompt = "houses, buildings, roads, people, humans, man-made, artificial structures, vehicles, powerlines, cities, towns, fences, signs, text, civilization, vibrant colors, saturated, HDR, vivid, dramatic lighting, bright colors, high contrast"

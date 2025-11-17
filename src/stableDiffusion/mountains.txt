@@ -1,0 +1,56 @@
+# Base descriptions of mountain scenes
+landscape_types = [
+    "mountain range vista",
+    "distant mountain peaks",
+    "rolling mountain landscape",
+    "alpine mountain vista",
+    "mountain valley view",
+    "mountain ridgeline",
+    "snow-capped mountain range",
+    "rocky mountain peaks",
+    "mountain basin landscape",
+    "mountainous terrain",
+    "mountain panorama",
+    "mountain wilderness",
+    "rugged mountain landscape",
+    "mountain plateau view",
+    "mountain pass vista",
+    "mountain massif"
+]
+
+# Weather and lighting conditions (neutral)
+conditions = [
+    "in soft morning light",
+    "under scattered clouds",
+    "in diffused daylight",
+    "with cloud-covered peaks",
+    "in clear atmosphere",
+    "with distant haze",
+    "under overcast sky",
+    "in natural lighting",
+    "with valley mist",
+    "with morning fog",
+    "in gentle sunlight",
+    "with atmospheric depth"
+]
+
+# Natural elements for depth and scale
+natural_elements = [
+    "with rocky outcrops",
+    "with alpine meadows",
+    "with snow patches",
+    "with glacial features",
+    "with mountain streams",
+    "with natural erosion patterns",
+    "with rocky terrain",
+    "with mountain vegetation",
+    "with natural rock formations",
+    "with distant treeline",
+    "with high-altitude flora",
+    "with mountain shadows",
+    "with layered ridges",
+    "with valley depths"
+]
+
+# Negative prompt to avoid unwanted elements
+negative_prompt = "buildings, houses, towns, cities, ski resorts, cable cars, power lines, roads, vehicles, people, hikers, artificial structures, cell towers, fences, signs, text, bright colors, oversaturated, HDR, dramatic sunset, extreme contrast, unrealistic lighting, artificial effects"

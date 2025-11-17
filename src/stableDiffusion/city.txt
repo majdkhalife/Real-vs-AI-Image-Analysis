@@ -1,0 +1,58 @@
+# Base descriptions of city scenes
+landscape_types = [
+    "modern city street",
+    "urban intersection",
+    "city skyline vista",
+    "downtown district",
+    "urban residential neighborhood",
+    "city plaza",
+    "metropolitan avenue",
+    "urban park surrounded by buildings",
+    "city waterfront",
+    "urban alleyway",
+    "commercial district",
+    "city rooftop view",
+    "urban transit station",
+    "city bridge view",
+    "urban courtyard",
+    "city marketplace",
+    "industrial district",
+    "apartment complex view"
+]
+
+# Time and lighting conditions
+conditions = [
+    "during daytime",
+    "in morning rush hour",
+    "under overcast sky",
+    "in afternoon light",
+    "during quiet hours",
+    "in natural daylight",
+    "on a cloudy day",
+    "in urban shade",
+    "with city reflections",
+    "in diffused sunlight",
+    "with urban shadows",
+    "during business hours"
+]
+
+# Urban elements and atmosphere
+natural_elements = [
+    "with pedestrians",
+    "with passing vehicles",
+    "with urban trees",
+    "with street furniture",
+    "with city signage",
+    "with parked cars",
+    "with concrete and glass",
+    "with urban lighting",
+    "with building reflections",
+    "with street vendors",
+    "with public transport",
+    "with urban greenery",
+    "with architectural details",
+    "with urban infrastructure"
+]
+
+# Negative prompt to maintain realism and avoid unwanted elements
+negative_prompt = "overcrowded, empty streets, post-apocalyptic, ruins, destruction, extreme weather, oversaturated colors, HDR, unrealistic lighting, cartoonish, dystopian, flying cars, excessive traffic, protests, construction sites, extreme perspective, fisheye lens, heavy motion blur"

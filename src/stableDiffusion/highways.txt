@@ -1,0 +1,62 @@
+# Base descriptions of highway scenes
+landscape_types = [
+    "multilane highway",
+    "interstate highway",
+    "elevated highway",
+    "highway interchange",
+    "rural highway",
+    "highway bridge crossing",
+    "highway tunnel approach",
+    "suburban highway",
+    "coastal highway",
+    "mountain highway",
+    "highway overpass",
+    "highway through farmland",
+    "highway cloverleaf",
+    "curved highway section",
+    "highway through forest",
+    "urban highway corridor",
+    "desert highway stretch",
+    "highway valley crossing"
+]
+
+# Time and conditions
+conditions = [
+    "in daylight",
+    "under overcast sky",
+    "in morning light",
+    "in clear weather",
+    "with scattered clouds",
+    "in natural lighting",
+    "during light traffic",
+    "in ambient light",
+    "with road visibility",
+    "in steady traffic flow",
+    "with good visibility",
+    "under diffused light"
+]
+
+# Highway elements and surroundings
+natural_elements = [
+    "with flowing traffic",
+    "with road markings",
+    "with guard rails",
+    "with road signs",
+    "with traffic barriers",
+    "with median divider",
+    "with surrounding landscape",
+    "with distant buildings",
+    "with bridge supports",
+    "with roadside vegetation",
+    "with light poles",
+    "with construction signs",
+    "with exit ramps",
+    "with road shoulders",
+    "with sound barriers",
+    "with emergency lanes",
+    "with mile markers",
+    "with overhead signs"
+]
+
+# Negative prompt to maintain realism and avoid unwanted elements
+negative_prompt = "accidents, traffic jams, road rage, broken vehicles, extreme weather, flooding, snow storm, oversaturated colors, HDR, unrealistic lighting, cartoon style, apocalyptic scenes, excessive lens flare, extreme camera angles, blurry motion, excessive speed blur, graffiti, damage, destruction"

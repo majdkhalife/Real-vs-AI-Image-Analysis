@@ -1,0 +1,50 @@
+# Base descriptions of beach scenes
+landscape_types = [
+    "sandy beach coastline",
+    "rocky beach shoreline",
+    "coastal beach landscape",
+    "sandy cove",
+    "beach dunes",
+    "tidal beach",
+    "secluded beach",
+    "coastal inlet",
+    "sandy shoreline",
+    "windswept beach",
+    "coastal beach terrain",
+    "shallow beach waters",
+    "curved beach coastline",
+    "beach peninsula"
+]
+
+# Weather and lighting conditions (keeping neutral)
+conditions = [
+    "during overcast weather",
+    "in morning light",
+    "in soft daylight",
+    "under scattered clouds",
+    "in diffused sunlight",
+    "during calm weather",
+    "in gentle morning mist",
+    "in early morning hours",
+    "under light cloud cover",
+    "in natural lighting"
+]
+
+# Natural elements for variety
+natural_elements = [
+    "with gentle waves",
+    "with scattered seashells",
+    "with natural driftwood",
+    "with beach grass",
+    "with natural sand patterns",
+    "with tide pools",
+    "with smooth pebbles",
+    "with coastal vegetation",
+    "with natural beach debris",
+    "with tidal patterns",
+    "with exposed sand bars",
+    "with shallow water pools"
+]
+
+# Negative prompt to avoid unwanted elements
+negative_prompt = "umbrellas, crowds, buildings, hotels, resorts, boardwalks, pier, trash, litter, beach chairs, towels, bright colors, oversaturated, tourism, beach toys, surfboards, intense sunsets, dramatic lighting, high contrast, advertisements, signs, text, beach equipment"

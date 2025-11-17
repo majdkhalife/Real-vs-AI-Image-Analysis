@@ -1,0 +1,59 @@
+# Base descriptions of office scenes
+landscape_types = [
+    "modern office space",
+    "open plan office",
+    "corporate workspace",
+    "office cubicle layout",
+    "office meeting room",
+    "executive office interior",
+    "collaborative workspace",
+    "office lobby area",
+    "office break room",
+    "corporate conference room",
+    "office desk arrangement",
+    "office corridor view",
+    "corner office view",
+    "shared office space",
+    "office reception area",
+    "office kitchen space",
+    "office lounge area",
+    "workspace environment"
+]
+
+# Lighting and time conditions
+conditions = [
+    "in natural daylight",
+    "with window lighting",
+    "under office lighting",
+    "during work hours",
+    "in morning light",
+    "with ambient lighting",
+    "in diffused sunlight",
+    "with desk lighting",
+    "during business hours",
+    "with natural illumination",
+    "with indirect lighting",
+    "with workplace lighting"
+]
+
+# Office elements and atmosphere
+natural_elements = [
+    "with office furniture",
+    "with computer workstations",
+    "with office workers",
+    "with desk arrangements",
+    "with office plants",
+    "with document organizers",
+    "with meeting setups",
+    "with workplace amenities",
+    "with office supplies",
+    "with collaborative spaces",
+    "with workplace decorations",
+    "with office equipment",
+    "with desk accessories",
+    "with office storage",
+    "with workplace signage"
+]
+
+# Negative prompt to maintain realism and avoid unwanted elements
+negative_prompt = "messy, cluttered, abandoned, damaged, overcrowded, empty office, extreme lighting, oversaturated colors, HDR, unrealistic scenes, cartoonish, dystopian, extreme perspective, excessive decoration, intense shadows, chaotic environment, office party, construction work, moving boxes, extreme emotions, unsafe conditions"
