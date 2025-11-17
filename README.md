@@ -38,10 +38,12 @@ These features characterize scene structure in terms of shape complexity, direct
 
 To analyze texture and structural regularity, we apply the **2D Discrete Cosine Transform (DCT)**:
 
-\[
-D(u,v) = \frac{1}{\sqrt{2N}} \sum_{x=0}^{N-1}\sum_{y=0}^{N-1}
-I(x,y)\cos\left(\frac{\pi(2x+1)u}{2N}\right)\cos\left(\frac{\pi(2y+1)v}{2N}\right)
-\]
+$$
+D(u,v) = \frac{1}{\sqrt{2N}}
+\sum_{x=0}^{N-1}\sum_{y=0}^{N-1}
+I(x,y)\cos\left(\frac{\pi(2x+1)u}{2N}\right)
+\cos\left(\frac{\pi(2y+1)v}{2N}\right)
+$$
 
 We:
 
